@@ -1,8 +1,9 @@
-package com.hiltihons.watermod;
-/*18.08.2023
+package com.hiltihons.watermod.item;
+/*19.08.2023
  *Autor:Herbert Fasching
  */
 
+import com.hiltihons.watermod.WaterMod;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
