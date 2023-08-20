@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XSX",
+    "XSX",
+    "XXX"
+  ],
+  "key": {
+    "S": {
+      "item": "watermod:raw_chip"
+    },
+    "X": {
+      "item": "watermod:straight_pipe"
+    }
+  },
+  "result": {
+    "item": "watermod:chip",
+    "count": 1
+  }
+}
