@@ -3,5 +3,7 @@
   "item.watermod.raw_chip": "Raw Chip",
   "item.watermod.straight_pipe": "Straight Pipe",
   "item.watermod.tee_pipe": "Tee Pipe",
-  "item.watermod.generator": "Generator"
+  "item.watermod.generator": "Generator",
+
+  "itemGroup.watermodtab": "Watermod"
 }

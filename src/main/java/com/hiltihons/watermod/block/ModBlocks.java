@@ -4,6 +4,7 @@ package com.hiltihons.watermod.block;
  */
 
 import com.hiltihons.watermod.WaterMod;
+import com.hiltihons.watermod.item.ModCreativeModeTab;
 import com.hiltihons.watermod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -25,7 +26,7 @@ public class ModBlocks
 
     public static final RegistryObject<Block> GENERATOR = registerBlock("generator",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(5f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.WATERMOD);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name,
                                                                      Supplier<T> block,
