@@ -14,6 +14,7 @@ import org.apache.logging.log4j.Logger;
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(WaterMod.MOD_ID)
 public class WaterMod
+
 {
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
